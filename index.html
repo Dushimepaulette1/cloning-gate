@@ -6,10 +6,25 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- nav     -->
+
     <!-- main section -->
     <main>
+      <div class="">
+        <ul
+          class="bg-red-700 flex justify-center w-[45%] gap-7 py-3 text-[#797A7C] relative left-[50rem] top-10 z-10"
+        >
+          <li>Academics</li>
+          <li>Admissions</li>
+          <li>Research</li>
+          <li>Global</li>
+          <li>Faith & Service</li>
+          <li>Campus Life</li>
+          <img src="/images/icons8-search.svg" alt="" />
+        </ul>
+      </div>
       <div
-        class="relative w-full h-screen"
+        class="relative w-full h-screen overflow-hidden"
         style="
           background: radial-gradient(
             circle,
@@ -26,19 +41,25 @@
         />
         <div class="absolute inset-0 -z-10"></div>
 
-        <div class="relative">
+        <div class="relative top-24 -">
           <img
             src="images/logo-wwyff-w.svg"
             alt=""
-            class="w-[15%] relative left-0"
+            class="w-[15%] relative left-[950px] right-28"
           />
-          <p class="text-white">
+          <p
+            class="text-white relative left-[760px] top-[40px] w-[30%] text-xl leading-[1.5]"
+          >
             Notre Dame attracts people willing to take action to find solutions
             to humanity's most pressing challenges. "What would you fight for?"
             For us, it's not a question. It's a call to action. We are the
             Fighting Irish.
           </p>
-          <button>What would you fight for?</button>
+          <button
+            class="relative left-[990px] top-[40px] mt-16 border border-white bg-white text-[#213752] py-4 px-2 rounded-lg"
+          >
+            What would you fight for?
+          </button>
         </div>
       </div>
     </main>
