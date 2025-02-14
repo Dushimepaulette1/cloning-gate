@@ -6,10 +6,11 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="bg-[#AD9041] py-1 w-full"></div>
     <!-- main section -->
     <main class="">
       <!-- nav     -->
-      <nav class="bg-[#0C2340] h-auto">
+      <nav class="bg-[#0C2340]">
         <div class="grid grid-cols-2 ml">
           <img src="images/logo nd.png" alt="" class="w-[60%]" />
           <ul class="text-white">
@@ -24,38 +25,28 @@
             </div>
           </ul>
         </div>
+        <ul
+          class="bg-white flex justify-center gap-8 max-w-fit relative left-[60rem] px-5 py-3 text-lg text-[#555]"
+        >
+          <li>Academics</li>
+          <li>Admissions</li>
+          <li>Research</li>
+          <li>Global</li>
+          <li>Faith & Service</li>
+          <li>Campus Life</li>
+          <img src="/images/icons8-search.svg" alt="" />
+        </ul>
       </nav>
-      <ul
-        class="bg-white flex justify-center w-[45%] gap-7 py-3 text-[#797A7C] relative left-[50rem] top-10 z-10"
-      >
-        <li>Academics</li>
-        <li>Admissions</li>
-        <li>Research</li>
-        <li>Global</li>
-        <li>Faith & Service</li>
-        <li>Campus Life</li>
-        <img src="/images/icons8-search.svg" alt="" />
-      </ul>
 
-      <div
-        class="relative w-full h-screen overflow-hidden"
-        style="
-          background: radial-gradient(
-            circle,
-            rgba(20, 56, 101, 1) 0%,
-            rgba(12, 35, 64, 1) 70%,
-            rgba(8, 22, 41, 1) 100%
-          );
-        "
-      >
+      <div class="relative w-full h-screen overflow-hidden bg-[#0C2340] -z-10">
         <img
           src="/images/campus_spring_scenic-1920.webp"
           alt=""
-          class="absolute inset-0 w-full h-full object-cover opacity-[.4]"
+          class="absolute mix-blend-luminosity inset-0 w-full h-full object-cover opacity-[.4] bg-[#0C2340]"
         />
         <div class="absolute inset-0 -z-10"></div>
 
-        <div class="relative top-24 -">
+        <div class="relative top-24">
           <img
             src="images/logo-wwyff-w.svg"
             alt=""
@@ -128,6 +119,9 @@
           <h1 class="text-4xl font-bold uppercase mt-2">
             The opportunity of inquired
           </h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
           <p class="text-xl mt-14">
             For scholars who share a common passion for inquiry because of what
             it can reveal about our world and ourselves, there is opportunity
@@ -143,6 +137,9 @@
           <h1 class="text-4xl font-bold uppercase mt-2">
             the Demands of justice
           </h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
           <p class="text-xl mt-14">
             Notre Dame is animated by a faith that inspires us to seek knowledge
             because of the powerful tool it can be to improve humankind.
@@ -165,6 +162,9 @@
         <div class="ml-10 pt-24 text-white">
           <h4 class="text-2xl text-[#ADB1B7] uppercase">Global</h4>
           <h1 class="text-4xl font-bold uppercase mt-2">the connected world</h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
           <p class="text-xl mt-14">
             Notre Dame seeks to be in the world, and to bring the world to Notre
             Dame, because inquiry and scholarly exchange are enriched by the
@@ -183,6 +183,9 @@
           <h1 class="text-[#0C2340] text-4xl font-bold uppercase">
             Notre Dame At work
           </h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
         </div>
         <button
           class="text-xl hover:border hover:bg-[#E1E8F2] hover:rounded-xl hover:px-7"
@@ -253,6 +256,9 @@
           <h1 class="text-[#0C2340] text-4xl font-bold uppercase">
             Notre Dame In focus
           </h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
         </div>
         <button
           class="text-xl hover:border hover:bg-[#E1E8F2] hover:rounded-xl hover:px-7"
@@ -320,12 +326,15 @@
     <div class="mt-52">
       <div class="flex justify-between px-20">
         <div>
-          <p class="text-[#6A6A6A] text-2xl">university events</p>
-          <h1
-            class="text-[#0C2340] text-6xl font-bold border-b-8 border-[#AE9142]"
-          >
+          <p class="text-[#6A6A6A] text-3xl uppercase mb-5">
+            university events
+          </p>
+          <h1 class="text-[#0C2340] text-6xl font-bold">
             Notre Dame In motion
           </h1>
+          <div
+            class="ml-[-1.25rem] mt-[1rem] w-[80px] h-[6px] block bg-[#ae9142]"
+          ></div>
         </div>
         <button
           class="text-xl hover:border hover:bg-[#E1E8F2] hover:rounded-xl hover:px-7"
@@ -336,17 +345,61 @@
     </div>
 
     <!-- notre dame ection -->
-    <div class="grid grid-cols-4 gap-0">
-      <div class="flex gap-10 mt-16">
+    <div class="grid grid-cols-2 mb-36 ml-10">
+      <div class="flex gap-5 mt-16">
         <div class="ml-20">
-          <div class="text-[#6A6A6A] font-[500] text-xl">FEB</div>
-          <div class="text-[#0C2340] text-7xl font-bold">28</div>
+          <div class="text-[#6A6A6A] font-[500] text-xl ml-3">FEB</div>
+          <div class="text-[#0C2340] text-6xl font-bold">28</div>
         </div>
-        <div class="">
-          <p class="">
+        <div class="hover:bg-#143865;">
+          <p class="text-[#0C2340] text-xl font-[500]">
             Ten Years Hence Lecture: "A Brief History of the Future"
           </p>
-          <p>Fri, Feb 28 at 10:40 am</p>
+          <p class="text-lg text-[#6A6A6A]">Fri, Feb 28 at 10:40 am</p>
+        </div>
+      </div>
+
+      <div class="flex gap-5 mt-16">
+        <div class="ml-20">
+          <div class="text-[#6A6A6A] font-[500] text-xl ml-3">MAR</div>
+          <div class="text-[#0C2340] text-6xl font-bold">8</div>
+        </div>
+        <div class="">
+          <p class="text-[#0C2340] text-xl font-[500]">
+            Spring Break (no classes in session)
+          </p>
+          <p class="text-lg text-[#6A6A6A]">Sat, Mar 8</p>
+        </div>
+      </div>
+
+      <div class="flex gap-5 mt-16">
+        <div class="ml-20">
+          <div class="text-[#6A6A6A] font-[500] text-xl ml-3">MAR</div>
+          <div class="text-[#0C2340] text-6xl font-bold">19</div>
+        </div>
+        <div class="">
+          <p class="text-[#0C2340] text-xl font-[500]">
+            Lecture by Doug Marsh: "Reflections on Building the University of
+            Notre Dame Campus"
+          </p>
+          <p class="text-lg text-[#6A6A6A]">
+            Lecture by Doug Marsh: "Reflections on Building the University of
+            Notre Dame Campus"
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-5 mt-16">
+        <div class="ml-20">
+          <div class="text-[#6A6A6A] font-[500] text-xl ml-3">MAR</div>
+          <div class="text-[#0C2340] text-6xl font-bold">20</div>
+        </div>
+        <div class="">
+          <p class="text-[#0C2340] text-xl font-[500]">
+            The 26th Annual Dialogues on Nonviolence, Religion, and Peace
+            featuring The Honorable Emilce Cuda
+          </p>
+          <p class="text-lg text-[#6A6A6A]">Thu, Mar 20 at 11:00 am</p>
         </div>
       </div>
     </div>
