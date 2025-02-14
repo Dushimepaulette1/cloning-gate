@@ -554,8 +554,16 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.inset-0 {
+  inset: 0px;
 }
 
 .left-40 {
@@ -590,6 +598,46 @@ video {
   bottom: -1.75rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-80 {
+  left: 20rem;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.z-\[2\] {
+  z-index: 2;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -598,6 +646,11 @@ video {
 .my-40 {
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-12 {
@@ -696,6 +749,50 @@ video {
   margin-top: 5rem;
 }
 
+.ml-60 {
+  margin-left: 15rem;
+}
+
+.mr-60 {
+  margin-right: 15rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mr-56 {
+  margin-right: 14rem;
+}
+
+.ml-56 {
+  margin-left: 14rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -706,6 +803,18 @@ video {
 
 .h-\[80\%\] {
   height: 80%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
 }
 
 .w-\[100\%\] {
@@ -742,6 +851,26 @@ video {
 
 .w-\[45\%\] {
   width: 45%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[15\%\] {
+  width: 15%;
 }
 
 .grid-cols-2 {
@@ -842,6 +971,20 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#2F4D73\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 77 115 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
 .bg-\[url\(\'\/images\/images\/pattern-celtic_knot-rings\.svg\'\)\] {
   background-image: url('/images/images/pattern-celtic_knot-rings.svg');
 }
@@ -850,8 +993,17 @@ video {
   background-image: url('/images/pattern-celtic_knot-rings.svg');
 }
 
+.bg-\[url\(\'\/images\/campus_spring_scenic-1920\.webp\'\)\] {
+  background-image: url('/images/campus_spring_scenic-1920.webp');
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-20 {
@@ -1007,6 +1159,52 @@ video {
   color: rgb(173 177 183 / var(--tw-text-opacity, 1));
 }
 
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-\[80\%\] {
+  opacity: 80%;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-\[\.4\] {
+  opacity: .4;
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 /* .bg-custom {
   background: url("/images/pattern-celtic_knot-rings.svg") 78vw -500px / 1200px 1200px
       no-repeat,
@@ -1031,6 +1229,15 @@ video {
 .hover\:bg-\[\#E2E9F3\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(226 233 243 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-red-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:p-10:hover {
+  padding: 2.5rem;
 }
 
 .hover\:px-7:hover {
