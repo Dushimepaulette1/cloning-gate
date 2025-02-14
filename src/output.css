@@ -812,6 +812,10 @@ video {
   margin-top: 1rem;
 }
 
+.mr-28 {
+  margin-right: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -1023,6 +1027,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#081629\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 22 41 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\/images\/pattern-celtic_knot-rings\.svg\'\)\] {
