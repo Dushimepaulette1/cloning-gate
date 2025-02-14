@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* .bg-custom {
+  background: url("/images/pattern-celtic_knot-rings.svg") 78vw -500px / 1200px 1200px
+      no-repeat,
+    url("/images/pattern-celtic_knot-rings.svg") -50vw 430px / 1200px 1200px no-repeat,
+    blue url("/assets/css/images/pattern-celtic_knot-rings.svg") 80vw 850px /
+      1200px 1200px no-repeat;
+} */
