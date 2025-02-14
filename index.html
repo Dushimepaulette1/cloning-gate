@@ -6,37 +6,111 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- notre dame in focus -->
+    <!-- notre dame at work -->
     <div>
-      <p class="text-[#6A6A6A] text-2xl uppercase">university stories</p>
-      <h1 class="text-[#0C2340] text-6xl font-bold uppercase">
-        Notre Dame In focus
-      </h1>
-      <!-- cards for notre dame in focus -->
+      <div class="flex justify-between">
+        <div>
+          <p class="text-[#6A6A6A] text-2xl uppercase mb-2">
+            university stories
+          </p>
+          <h1 class="text-[#0C2340] text-4xl font-bold uppercase">
+            Notre Dame In focus
+          </h1>
+        </div>
+        <button
+          class="text-xl hover:border hover:bg-[#E1E8F2] hover:rounded-xl hover:px-7"
+        >
+          View all stories >
+        </button>
+      </div>
+      <div class="flex mb-36">
+        <div class="">
+          <img
+            src="images/globering_2025.jpeg"
+            alt=""
+            class="pl-14 relative left-40 top-20"
+          />
+        </div>
+        <div class="bg-[#EDF2F9] w-[80%] pl-[20%] py-16">
+          <h3 class="text-[#6A6A6A] text-2xl uppercase mb-2">International</h3>
+          <p class="font-[500] text-3xl text-[#0C2340] my-3 leading-[1.2]">
+            University of Notre Dame wins <br />award for excellence in campus
+            <br />
+            internationalization
+          </p>
+          <button class="relative left-7 top-10 text-xl">Read article ></button>
+        </div>
+      </div>
+
       <div>
+        <h2>Community News</h2>
+        <p>
+          Notre Dame partners with community organizations for Walk the Walk
+          Week service project
+        </p>
+        <h2>Faculty and staff</h2>
+        <p>Physicist Laura Fields granted a Presidential Early Career Award</p>
+      </div>
+      <div>
+        <img src="images/mc_mcob_banner.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- notre dame in focus -->
+    <div class="px-32 bg-[#FFFFFF] my-40">
+      <div class="flex justify-between">
         <div>
-          <img src="images/2025-sampoorna-800.webp" alt="" class="w-[30%]" />
-          <h5>Global</h5>
-          <h3>Empowering through education</h3>
-          <p>A pathway out of poverty for children in india</p>
+          <p>university stories</p>
+          <h1 class="text-[#0C2340] text-4xl font-bold uppercase">
+            Notre Dame In focus
+          </h1>
         </div>
-        <div>
-          <img src="images/2025-habitat-800.jpeg" alt="" class="w-[30%]" />
-          <h5>Community</h5>
-          <h3>Habitat partnership bears fruit for homebuyers in south bend</h3>
+        <button
+          class="text-xl hover:border hover:bg-[#E1E8F2] hover:rounded-xl hover:px-7"
+        >
+          View all stories >
+        </button>
+      </div>
+      <!-- cards for notre dame in focus -->
+      <div class="grid grid-cols-3 gap-7 mt-10">
+        <div class="hover:bg-[#E2E9F3]">
+          <img src="images/2025-sampoorna-800.webp" alt="" class="w-[100%]" />
+          <div class="px-4 py-5">
+            <h5 class="uppercase text-[#6A6A6A] text-xl mt-1">Global</h5>
+            <h3 class="font-[500] text-3xl text-[#0C2340] my-3">
+              Empowering through <br />education
+            </h3>
+            <p class="text-xl text-[#6A6A6A]">
+              A pathway out of poverty for children in india
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="hover:bg-[#E2E9F3]">
+          <img src="images/2025-habitat-800.jpeg" alt="" class="w-[100%]" />
+          <div class="px-4 py-5">
+            <h5 class="uppercase text-[#6A6A6A] text-xl mt-1">Community</h5>
+            <h3 class="font-[500] text-3xl text-[#0C2340] my-3 leading-[1.2]">
+              Habitat partnership bears <br />fruit for homebuyers in
+              <br />south bend
+            </h3>
+          </div>
+        </div>
+        <div class="hover:bg-[#E2E9F3]">
           <img
             src="images/2024-reasons-to-serve-800.webp"
             alt=""
-            class="w-[30%]"
+            class="w-[100%]"
           />
-          <h5>University</h5>
-          <h3>reasons to serve</h3>
-          <p>
-            History, West Point, and 9/11 memorial inspire ND ROTC students in
-            New York
-          </p>
+          <div class="px-4 py-5">
+            <h5 class="uppercase text-[#6A6A6A] text-xl mt-1">University</h5>
+            <h3 class="font-[500] text-3xl text-[#0C2340] my-3">
+              Reasons to serve
+            </h3>
+            <p class="text-xl text-[#6A6A6A]">
+              History, West Point, and 9/11 memorial inspire <br />ND ROTC
+              students in New York
+            </p>
+          </div>
         </div>
       </div>
     </div>
